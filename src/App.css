@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  column-gap: 20px;
+}
+.padding{
+  padding: 10px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button{
+  padding: 10px 20px;
+}
+.table{
+  height: 75vh;
+  overflow: scroll;
+  overflow-x: hidden;
+}
